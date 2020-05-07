@@ -2,56 +2,11 @@
  * 1. Google Map Places API for My Favourite Restaurant: 
 */ 
 // https://maps.googleapis.com/maps/api/place/textsearch/json?query=SuraKoreanRestaurant&key=AIzaSyCdj1_BDkG85qRAPlY9L93f4DVV4EQ5DOQ
-// const proxyurl = "https://cors-anywhere.herokuapp.com/";
-// const url = 'https://maps.googleapis.com/maps/api/place/textsearch/json?query=SuraKoreanRestaurant&key=AIzaSyCdj1_BDkG85qRAPlY9L93f4DVV4EQ5DOQ';
-// const url2 = '/poi';
-
-// // function status(response) {
-// //     if (response.status >= 200 && response.status < 300) {
-// //       return Promise.resolve(response)
-// //     } else {
-// //       return Promise.reject(new Error(response.statusText))
-// //     }
-// //   }
-  
-// //   function json(response) {
-// //     return response.json()
-// //   }
-  
-// // fetch('users.json')
-// //     .then(status)
-// //     .then(json)
-// //     .then(function(data) {
-// //       console.log('Request succeeded with JSON response', data);
-// //     }).catch(function(error) {
-// //       console.log('Request failed', error);
-// //     });
-
-// // fetch(url, {mode: 'no-cors'})
-// //     .then(res => res.json())
-// //     .then(data => console.log('Output: ', data))
-// //     .catch(err => console.error(err));
-
-// const data = { username: 'example' };
-
-// fetch('http://127.0.0.1:5500/poi', {
-//   method: 'POST', // or 'PUT'
-//   headers: {
-//     'Content-Type': 'application/json',
-//   },
-//   body: JSON.stringify(data),
-// })
-// .then(response => response.json())
-// .then(data => {
-//   console.log('Success:', data);
-// })
-// .catch((error) => {
-//   console.error('Error:', error);
-// });
 
 /*
  * 2. Map Demo Application: Google Map Places API for My Favourite Restaurant
 */ 
+// viewable in Chrome/Firefox/Edge
 var map;
 var service;
 var infoWindow; 
@@ -151,4 +106,7 @@ function createMarker(place) {
     });
 }
 
-
+/*
+ * 3. Map Demo Application Deployment: Heroku
+*/ 
+// require additional server app.js and JS Dev-environment 

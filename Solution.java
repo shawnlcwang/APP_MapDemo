@@ -8,7 +8,7 @@ public class Solution{
             }
             else {
                 int repeat = s.charAt(i) -'a'; 
-                System.out.println(repeat+1);
+                // System.out.println(repeat+1); 
                 for (int j=0; j <= repeat; j++){
                     System.out.print(str.charAt(i));
                 }
@@ -21,7 +21,8 @@ public class Solution{
     
     public static void main(String[] args) { 
         repeatNumberedAlphabet("Foundary Spatial"); 
-        repeatNumberedAlphabet("Intro Python Algo"); 
+        // repeatNumberedAlphabet(""); 
+        // repeatNumberedAlphabet("Intro Python Algo");  
     } 
 }
 
