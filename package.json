@@ -4,6 +4,7 @@
   "description": "Map Demo Application",
   "main": "App.js",
   "scripts": {
+    "start": "node App.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [

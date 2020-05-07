@@ -12,11 +12,12 @@ https://maps.googleapis.com/maps/api/place/textsearch/json?query=SuraKoreanResta
 - Heroku deployment process
     > a. heroku login: Logged in as shawnlcwang@gmail.com
     > b. heroku create foundryspatial: https://foundryspatial.herokuapp.com/ | https://git.heroku.com/foundryspatial.git 
-    > c. 
-    - d. 
-    - e. 
-    - f. 
-    - 
+    > c. push Procefile to Heroku: 
+    - d. git add. 
+    - e. git commit -m "update"
+    - f. git push heroku master (require package.json for Node.js Buildpack)
+    - g. spin up a server: heroku ps:scale web=1
+    - heroku open
 
 Pseudo-code challenges
 1. Code Challenge: 
