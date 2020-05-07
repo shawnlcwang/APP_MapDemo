@@ -1,0 +1,16 @@
+{
+  "name": "map_app",
+  "version": "1.0.0",
+  "description": "Map Demo Application",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "poi",
+    "api"
+  ],
+  "author": "Shawn Wang",
+  "license": "ISC",
+  "dependencies": {}
+}
