@@ -9,7 +9,14 @@ https://maps.googleapis.com/maps/api/place/textsearch/json?query=SuraKoreanResta
 
 3. Map Demo Application Deployment: Heroku
 - Procfile
-- i. 
+- Heroku deployment process
+    > a. heroku login: Logged in as shawnlcwang@gmail.com
+    > b. heroku create foundryspatial: https://foundryspatial.herokuapp.com/ | https://git.heroku.com/foundryspatial.git 
+    > c. 
+    - d. 
+    - e. 
+    - f. 
+    - 
 
 Pseudo-code challenges
 1. Code Challenge: 
