@@ -11,7 +11,7 @@ https://maps.googleapis.com/maps/api/place/textsearch/json?query=SuraKoreanResta
 - Procfile
 - To be updated soon 
 
-Pseudo-code challenges
+PSEUDO-CODE CHALLENGES
 1. Code Challenge: 
 - Solution.java
 
