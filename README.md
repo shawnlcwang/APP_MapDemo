@@ -3,7 +3,7 @@ MAP DEMO APPLICATION
 https://maps.googleapis.com/maps/api/place/textsearch/json?query=SuraKoreanRestaurant&key=AIzaSyCdj1_BDkG85qRAPlY9L93f4DVV4EQ5DOQ
 
 2. Map Demo Application: Google Map Places API for My Favourite Restaurant (require live server tools)
-- App.js
+- api.js
 - index.html
 - style.css
 
